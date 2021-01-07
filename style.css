@@ -41,9 +41,24 @@ body {
 }
 
 .side-cta {
-	height: 418px;
 	width: 100%;
 	background-color: #20b7cc;
+}
+
+.side-cta-header{
+  height: 148px;
+  width:100%;
+  background-color: #0E899A;
+}
+
+.side-cta-footer{
+  background-color: rgba(0, 0, 0, 0.2);
+  width:85%;
+  align-self: center;
+}
+
+.img-container{
+  border-radius: 4px;
 }
 
 .title-article {
