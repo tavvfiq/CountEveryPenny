@@ -56,7 +56,8 @@ body {
 .side-cta-footer {
 	background-color: rgba(0, 0, 0, 0.2);
 	width: 85%;
-	align-self: center;
+  align-self: center;
+  vertical-align: middle;
 }
 
 .img-container {
@@ -159,12 +160,86 @@ body {
 	width: 100%;
 	height: 418px;
 }
-
 .frame-4 {
-	background-color: #f7fdff;
+  background-color: #f7fdff;
+  position:relative;
 	width: 100%;
-	height: 557px;
+	/* height: 557px; */
 }
+
+.map{
+  padding:auto;
+}
+
+.figcaption{
+  position: absolute;
+  bottom:4%;
+  width:40%;
+  left:15%;
+}
+
+.figcaption img{
+  align-self:flex-start;
+}
+
+.wa {
+  left:10%;
+  top:20%;
+  right:60.1%;
+  bottom:24.87%;
+  shape-outside: url(./assets/wa.svg);
+  width:120px;
+  height: 182px;
+}
+
+.nt {
+  left:37%;
+  top:15%;
+  right:37.1%;
+  bottom:54.87%;
+  shape-outside: url(./assets/nt.svg);
+}
+
+.qld {
+  left:54%;
+  top:15%;
+  right:0%;
+  bottom:42.87%;
+}
+
+.sa {
+  left:38%;
+  top:46.28%;
+  right:30.1%;
+  bottom:17.87%;
+}
+
+.nsw_act {
+  left:58%;
+  top:55.28%;
+  right:0.1%;
+  bottom:17.87%;
+}
+
+.vic {
+  left:57.5%;
+  top:66.5%;
+  right:12.1%;
+  bottom:13.87%;
+}
+
+.tas {
+  left:62%;
+  top:77%;
+  right:14.1%;
+  bottom:0.87%;
+}
+
+.continent {
+  position: absolute;
+  padding:0;
+}
+
 
 .image-article {
 	width: 100%;
